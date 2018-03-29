@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    width: auto;
+    height: 30px;
+    background: linear-gradient(grey,rgb(198, 201, 204),grey);
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-size: 23px;
+}
+
+p {
+    padding: 0px 8px;
+    text-align: justify;
+}
+
+#wrapper{
+    width: 1200px;
+    height: auto;
+    background-color: rgb(235, 231, 231);
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#container {
+    background-color: rgba(20, 4, 20, 0.726);
+    width: 1200px;
+    height: auto;
+    padding: 35px auto;
+    overflow: hidden;
+    
+}
+
+#wrapper h1 {
+        width: 600px;
+        height: 60px;
+        display: inline-block;
+        margin: 0px;
+        position: absolute;
+        top: 10px;
+        padding: 10px 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        font-size: 40px;
+}
+
+#wrapper h2 {
+        width: 600px;
+        height: 50px;
+        display: inline-block;
+        margin: 0px;
+        float: right;
+        text-align: center;
+        padding-top: 30px;
+}
+
+#first_content {
+    width: 1130px;
+    height: auto;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#first_content img {
+    width: 540px;
+    height: 320px;
+    border: 5px solid grey;
+    margin: 8px;
+
+}
+
+#about {
+    width: 550px;
+    height: 328px;
+    display: inline-block;
+    float: right;
+    background: linear-gradient(to bottom right, #ffffff 66%, rgba(78, 44, 78, 0.397) 100%);
+    margin: 7px;
+}
+
+#about p {
+    font-size: larger;
+} 
+
+#main_content {
+    width: auto;
+    height: auto;
+    margin: 20px 30px;
+    /* padding: 10px auto; */
+}
+
+.projects {
+    width: 350px;
+    height: 705px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 13px;
+    background: linear-gradient(to bottom right, #ffffff 66%, rgba(78, 44, 78, 0.397) 100%);
+    position: relative;
+}
+
+.content img {
+    width: auto;
+    height: 180px;
+    margin: auto;
+}
+
+.technologies {
+    width: auto;
+    height: 280px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.technologies img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px auto;
+    vertical-align: middle;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer p {
+    text-align: center;
+}
+#footer img {
+    width: 30px;
+    height: 30px;
+}
+
+ul li{
+    display: inline;
+}
